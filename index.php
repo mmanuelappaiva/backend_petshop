@@ -4,7 +4,7 @@
 require "config.php"; //importar código
 
 $rota= $_GET["rota"] ?? "teste";
-switch
+
 //a maioria das functions posssuem essa estrutura de acessso ao BD 
 //o que muda de uma para outra é o CONTEÚDO DA QUERY
 function listarAnimais($con){//rota= animais
